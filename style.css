@@ -1,3 +1,33 @@
 /*
     CASCADING STYLESHEET
 */
+
+html, body {
+    margin: 0;
+}
+
+/*
+    ALINHAMENTOS, ESPAÇAMENTOS, LARGURAS E ALTURAS
+*/
+
+header, main, footer {
+    text-align: center;
+}
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Forma de deixar o grid flexivel */
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header, .form, main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    width: 90%;
+    max-width: 500px;
+}
