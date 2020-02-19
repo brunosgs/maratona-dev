@@ -1,0 +1,23 @@
+{
+  "name": "maratonadev3-0",
+  "version": "1.0.0",
+  "description": "Repositório do código desenvolvido durante o hands on da MaratonaDev 3.0 - Rocketseat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunosoges/maratona-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunosoges/maratona-dev/issues"
+  },
+  "homepage": "https://github.com/brunosoges/maratona-dev#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
